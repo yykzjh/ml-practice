@@ -61,7 +61,7 @@ def main():
     # print(gscv.best_score_)
 
     # 普通训练
-    classifier = linear_model.LogisticRegression(C=100, max_iter=1000)
+    classifier = linear_model.LogisticRegression(C=100, max_iter=1000)  # C越小，正则化越强，越不容易过拟合
     classifier.fit(x_train, y_train)
 
     # 训练集精度
