@@ -66,12 +66,6 @@ def display(X, y, model):
 
 
 
-
-
-
-
-
-
 def main():
     # 加载数据
     X, y = load_dataset(r"./data/svm2.txt")
